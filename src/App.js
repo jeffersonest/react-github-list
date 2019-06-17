@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/headerComponent';
-import Main from './pages/main'
+import Routes from './routes';
 import './styles.css';
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -15,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Main />
+        <Routes />
       </div>
     );
   }
